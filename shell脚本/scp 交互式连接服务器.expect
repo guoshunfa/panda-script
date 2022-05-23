@@ -22,5 +22,5 @@ expect {
     "password" {send "${remote_pwd}\r";}
     "yes/no" {send "yes\r";exp_continue}
 }
+
 expect eof
-exit
